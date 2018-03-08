@@ -2,10 +2,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.dokka-android'
 
-
 android {
+    buildToolsVersion '27.0.3'
     compileSdkVersion 27
-
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 27

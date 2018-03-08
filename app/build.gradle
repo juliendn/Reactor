@@ -5,6 +5,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'org.jetbrains.dokka-android'
 
 android {
+    buildToolsVersion '27.0.3'
     compileSdkVersion 27
     defaultConfig {
         applicationId "fr.juliendenadai.meteo"
