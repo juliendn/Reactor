@@ -1,2 +1,5 @@
-include ':reactor'
-include ':app'
+include ':reactor-core'
+include ':reactor-android'
+include ':sample-core'
+include ':sample-swing'
+include ':sample-android'
