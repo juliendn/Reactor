@@ -18,6 +18,7 @@ class MeteoServiceDummy : IMeteoService {
     override fun addCity(city: CharSequence): Completable = Completable.create { emitter ->
         when {
             city.isEmpty() -> emitter.onError(Throwable("City must not be empty"))
+            city.toString() in datas.map { it.city } -> emitter.onError(Throwable("Already registered"))
             city.toString() in cities -> {
                 datas += MeteoForCity(city.toString(), Random().nextInt(35))
                 meteoCityList.onNext(datas)
