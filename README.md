@@ -1,6 +1,6 @@
-# Reactor
+# Reaktor
 
-[![Build Status](https://travis-ci.org/juliendn/Reactor.svg?branch=master)](https://travis-ci.org/juliendn/Reactor)
+[![Build Status](https://travis-ci.org/juliendn/Reaktor.svg?branch=master)](https://travis-ci.org/juliendn/Reaktor)
 
 Sample project using MVI pattern
 

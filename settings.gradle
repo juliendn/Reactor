@@ -1,5 +1,5 @@
-include ':reactor-core'
-include ':reactor-android'
+include ':reaktor-core'
+include ':reaktor-android'
 include ':sample-core'
 include ':sample-swing'
 include ':sample-android'
